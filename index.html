@@ -1,58 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
- <link rel="stylesheet" href="./css/styles.css">
- 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel ="stylesheet" href ="./css/desktop1440.css" media="screen and (min-width: 1200px)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
- 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
   <title>Stats preview card component</title>
-  
 </head>
 <body>
-<article class="payment-card">
-  <header>
-    <div >
-     <div class="overlay-layer">
-      <img src="./images/image-header-mobile.jpg" alt="Header de grupo ">
-     </div>
-    </div>
-  </header>
-  
- <main>
-   <h1>Get 
-    <span style="color:hsl(277, 43%, 44%)">insights</span> 
-    that help your business grow.
-   </h1>
-   <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-    experience, and overall efficiency.
-    
-  </p>
-</main>
-
-<section class="plan">
-  <ul>
-      <li>
-          <h2>10k+</h2>
-          <p> COMPANIES </p>
-      </li>
-      <li>
-          <h2>314</h2>
-          <p>TEMPLATES</p>
-      </li>
-      <li>
-          <h2>12M+</h2>
-          <p>QUERIES</p>
-      </li>
-  </ul>
-</section>
-
-</article>
-
+  <article class= "payment-card">
+    <main>
+      <div class="payment-card-imagen"></div>
+      <section class="parrafo">
+        <H1>Get <span>insights</span> that help your business grow.</H1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+        <section class="plan">
+          <div class="plan_a1">
+            <H2>10k+</H2>
+            <span>COMPANIES</span>
+          </div>
+          <div class="plan_b2">
+            <H2>314</H2>
+            <span>TEMPLATES</span>
+          </div>
+          <div class="plan_c3">
+            <H2>12M+</H2>
+            <span>QUERIES</span>
+          </div>
+        </section>
+      </section>
+    </main>
+  </article>
 </body>
 </html>
